@@ -1,0 +1,272 @@
+html {
+    background: rgb(5, 5, 5);
+    color: white;
+    
+}
+
+.header {
+    color: white;
+    list-style: none;
+    display: flex;
+    border: 1px solid #474747;
+    width: 17em;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    margin-left: 30rem;
+    font-size: 23px;
+    padding-left: 0;
+
+    border-radius: 3cm;
+}
+
+
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    align-self: center;
+    color: white;
+    border-radius: 3cm;
+    width: 40px;
+    height: 40px;
+    transform: translateX(1px);
+    background-color: #272829;
+    cursor: pointer;
+    align-content: center;
+}
+
+.bx.bx-x {
+    font-size: 26px;
+    opacity: 0.4;
+}
+
+.btn:hover {
+    cursor: pointer;
+    outline: 1px solid #5e5c5c;
+}
+
+.bx.bx-x:hover {
+    opacity: 1;
+}
+
+.button {
+    border: none;
+    outline: none;
+    color: white;
+    margin-right: 13px;
+    font-family: "Ubuntu", serif;
+    font-weight: 900;
+    font-style: normal;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.hidden {
+    display: none;
+}
+
+#download {
+    border: none;
+    outline: none;
+    align-self: center;
+    width: max-content;
+    border-radius: 12px;
+    transform: translateX(14px);
+    color: black;
+    height: 40px;
+    background-color: #f0f3f7;
+    cursor: pointer;
+    align-content: center;
+}
+
+.headline {
+    font-family: "Ubuntu", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 10rem;
+    margin-left: 26rem;
+    transform: translateY(-150px);
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: -400px;
+   
+}
+.card-1{
+  
+    width:15rem;
+    height:auto;
+    margin-left: 300px;
+
+    background: rgba(19, 17, 17, 0.9);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+-webkit-backdrop-filter: blur(3px);
+
+border: 1px solid #494545;
+
+}
+.head-1{
+    font-family: "Ubuntu", serif;
+    font-weight: 200;
+    opacity: 0.8;
+    padding: 20px;
+}
+.card-2{
+   
+    width:15rem;
+    height:auto;
+   margin-left: 10px;
+
+   background: rgba(19, 17, 17, 0.9);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(3.4px);
+   -webkit-backdrop-filter: blur(3.4px);
+   border: 1px solid #494545;
+
+}
+.card-3{
+    
+    width:15rem;
+    height:auto;
+   margin-left: 10px;
+
+background: rgba(19, 17, 17, 0.9);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3px);
+border: 1px solid #494545;
+-webkit-backdrop-filter: blur(3px);
+
+}
+.head-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 20px;
+   
+  font-weight:bolder;
+  font-style: normal;
+  font-size:40px;
+  transform: translateY(-50px);
+}
+.section{
+    border: 1px solid #494545;
+    opacity: 0.5;
+    margin-top: -80px;
+ 
+}
+
+
+.cool-dark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  
+    
+}
+
+.cool-dark-list li {
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+   
+
+   padding-left:10px;
+ 
+}
+
+.cool-dark-list li::before {
+    content: '✔';
+    color: white;
+    background-color: #222;
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+   
+    line-height: 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    opacity: 1;
+}
+.cool-dark-list .text-content { opacity: 0.4;  }
+
+.btn-2 {
+    background-color: #0a0a0a;
+    color: white;
+    border: 1px solid rgb(29, 23, 23);
+    width:215px;
+    height:40px;
+    font-size: 16px;
+    border-radius: 20px;
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   justify-content: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.btn-2:hover {
+    box-shadow: 0 10px 0px rgba(255, 255, 255, 1);
+}
+.toggle-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-top: 440px;
+    font-weight: bold;
+    margin-left: 140px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-button {
+    width: 60px;
+    height: 30px;
+    background-color: #333; /* Cool black */
+    border-radius: 15px;
+    position: relative;
+    margin-right: 10px;
+ 
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button::before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: white; /* Cool white */
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Soft glow */
+}
+
+.toggle-input:checked + .toggle-button::before {
+    transform: translateX(30px);
+}
+
+.toggle-input:checked + .toggle-button {
+    background-color: #555; /* Different shade of cool black for checked state */
+}
+
+.toggle-input:checked + .toggle-button + .toggle-text {
+    content: "Billed Yearly";
+}
+
